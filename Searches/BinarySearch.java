@@ -29,7 +29,7 @@ class BinarySearch implements SearchAlgorithm {
    */
   @Override
   public <T extends Comparable<T>> int find(T[] array, T key) {
-    return search(array, key, 0, array.length);
+    return search(array, key, 0, array.length - 1);
   }
 
   /**
